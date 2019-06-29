@@ -1,0 +1,174 @@
+/* Base WooDelivery Styling 
+
+#WooDeliveryList ul li{border:solid 1px #FFFFFF;padding:4px;font-size:20px;list-style-type:none;margin:0 0 5px 0;min-height:35px;background-color:#feed28;}
+#WooDeliveryList ul{padding:0px;} */
+
+/* ============== Order claim loop styles */
+
+
+#WooDeliveryList .WD-ClaimButton,.WD-Claimed{max-width:90px;float:right;color:white;width:auto;padding:3px 8px;margin-right:2px;}
+.WD-Claimed{font-size:12px;max-width:120px;text-align:center;height:50px auto;}
+.WDclaimcol1{float:left;width:14%;height:50px;padding:4px 1%;}
+.WDclaimcol2{float:left;width:21%;height:50px;padding:4px 1%;}
+.WDclaimcol3{float:left;width:27%;height:50px;padding:4px 1%;}
+.WDclaimcol4{float:left;width:27%;height:50px;padding:4px 1%;}
+
+
+/* ============== Map styles */
+#orders-map-topbar{background:darkgreen;color:white;padding:5px 10px;}
+#map-canvas{height:600px;width:100%;max-width:100%;padding:0;margin:0;border:solid 2px darkgreen;}
+#map-canvas img{max-height:100%;}
+.wd-delivery-map-captioncontainer{}
+.wd-delivery-map-captioncontainer .button{width:90%;margin:5px auto;}
+.wd-delivery-map-captionheading{background:darkgreen;color:white;border-radius:4px;width:100%;margin:0px auto;}
+
+/* ============== Driver Pool styles */
+
+li.WDdriverpool-driver-listing{width:220px;height:440px;float:left;margin:10px;border:solid 1px #e6e6e6;background:white;list-style-type:none;}
+li.WDdriverpool-driver-listing div{text-align:center;}
+li.WDdriverpool-driver-listing div.WDdriverpool-imgrow{height:170px;text-align:center;padding:10px 10px 20px 10px;background:#86bf03;}
+li.WDdriverpool-driver-listing div.WDdriverpool-imgrow img{max-height:150px;max-width:150px;text-align:center;border-radius:50%;}
+.WDdriverpool-col1,div.WDdriverpool-col6 .button{background:#349e25;color:white;}
+div.WDdriverpool-col6 .button{border:0;}
+.WDdriverpool-col1 a{color:white;font-weight:bold;text-transform:uppercase;}
+/* li.WDdriverpool-driver-listing .WDdriverpool-col1,li.WDdriverpool-driver-listing .WDdriverpool-imgrow{background:#e6e6e6;} */
+
+/* ============== Driver Status Bar Styles */
+
+.wd-driver-status-bar{background:darkgreen;color:white;padding:5px 15px;font-size:22px;}
+.wd-driver-status-bar .button{float:right;clear:both;font-size:16px;}
+
+
+/* ============== Checklist styles */
+
+#WooDeliveryOrderHeader {background:darkgreen;color:white;}
+#WooDeliveryOrderHeader h1{background:darkgreen;color:white;padding:10px;}
+#WooDeliveryOrderHeader .col1{width:44%;float:left;padding:10px;color:white;font-size:16px;}
+#WooDeliveryOrderHeader .col2{width:44%;float:right;padding:10px;color:white;font-size:16px;}
+
+#WooDeliveryOrderList div{padding:0;margin:0;float:left;text-align:left;}
+#WooDeliveryOrderList div.WDchecklistcategoriestitle{text-align:left;}
+
+.wd-radiobutton {display:none;}
+
+#wd-actualtotalcontainer{padding:5px;background:white;text-align:right;font-size:24px;width:90%;}
+
+
+.WDdriverpool-listing-rating-container{height:40px;text-align:center;}
+
+.wd-my-assigned-orders-list-title {font-size:16px;font-weight:bold;text-align:center;color:white;}
+.wd-my-assigned-orders-list-titlerow{background:darkgreen;}
+
+div#WooDeliveryOrderList .wd-checklist-refsubrow{text-align:right;}
+div#WooDeliveryOrderList .wd-checklist-refsubrow .btn{float:right;}
+
+
+div#WooDeliveryOrderList .row .wd-checklistcontrols{padding:0px 0px 20px 0px;clear:both;text-align:center;float:none;}
+
+
+#WooDeliveryOrderList .colheading{background:black;color:White;font-weight:bold;font-size:20px;height:40px;max-height:40px;}
+
+
+#WooDeliveryOrderList .row{width:100%;padding:0px;margin:10px auto;float:left;border:solid 1px #00b909;clear:both;}
+.WD-date-expired{color:Red;font-weight:bold;}
+
+.wd-message-normal{background:white;padding:10px 10px 10px 40px;border:solid 1px black;border-radius:4px;color:Black;background:white url('icon-checkmark.png') no-repeat left center;}
+.wd-message-error{background:white;padding:10px 10px 10px 40px;border:solid 1px red;border-radius:4px;color:red;font-weight:bold;}
+.WooDeliveryOrderWrapper{background:white;border:0 none;padding:10px;border-radius:4px;border:solid 1px darkgreen;}
+
+/* #WooDeliveryOrderList .col1,#WooDeliveryOrderList .col2,#WooDeliveryOrderList .col3,#WooDeliveryOrderList .col4,#WooDeliveryOrderList .col5,#WooDeliveryOrderList .col6,#WooDeliveryOrderList .col7{border:solid 1px #e6e6e6;}
+    */
+
+
+.wd-orderchecklist-submitbutton-container{width:100%;text-align:center;}
+#wdErrorMessage{font-size:20px;line-height:23px;width:95%;padding:10px 2.5%;color:Red;text-align:center;}
+#wdErrorMessage .wd-message-normal{padding:10px 10px 10px 40px;border:0px none;}
+
+.wdimagecellbox{width:180px;height:240px;background:#e6e6e6;margin:5px;float:left;padding:15px;border:solid 1px black;}
+.wdimagecellbox .wdimagecellboxmenu{height:40px;color:white;text-align:center;margin-top:-40px;}
+.wdimagecellbox .wdimagecellproducttitle{font-size:16px;line-height:16px;text-align:center;height:50px;padding:10px;}
+
+.WDchecklistcategoriestitle {background:darkgreen;color:white;font-weight:bold;font-size:20px;width:100%;clear:both;min-height:40px;line-height:40px;text-align:left;margin-bottom:10px;margin-top:10px;}
+
+
+
+div#WooDeliveryOrderList a.WDchecklistorderitemtitlelink {text-decoration:none;color:black;font-size:20px;}
+div.wd-checklist-footer-buttons-wrap{text-align:center;margin-top:20px;border:solid 2px white;background:darkgreen;width:100%;padding:4px 0;border-radius:5px;}
+
+#WooDeliveryOrderList .col4{width:64px;background:transparent url('http://www.speedygrocer.com/images/ChecklistQtyHolder.png') no-repeat center top;font-size:28px;padding-top:18px;color:white;text-align:center;}
+
+div#WooDeliveryOrderList .wd-checklist-imagerow,div#WooDeliveryOrderList .wd-checklist-titlerow {text-align:center;padding:5px;}
+div#WooDeliveryOrderList .wd-checklist-imagerow img{margin:10px auto;border:solid 1px #e6e6e6;}
+div#WooDeliveryOrderList .wd-checklist-titlerow {border-top:solid 1px #e6e6e6;border-bottom:solid 1px #e6e6e6;}
+
+div#WooDeliveryOrderList .wd-checklist-qtyrow{font-size:24px;text-align:center;border:solid 1px #e6e6e6;}
+
+div#WooDeliveryOrderList .WDchecklistcategoriestitle {}
+div#WooDeliveryOrderList div#WooDeliveryOrderHeader .wd-checklist-section-details {background:#179005;color:white;}
+
+
+div#WooDeliveryOrderList div#WDsubandrefundresultsbar,div#WooDeliveryOrderList #WDitemsfoundbar {border:solid 1px #e6e6e6;padding:4px 8px;}
+
+#WDitemCounterBarWrapper {}
+#WDitemCounterBarOuter {margin:10px 15px;width:100%;border:solid 2px #e6e6e6;background:darkred;border-radius:15px;height:30px;}
+#WDitemCounterBarInner {background:lightgreen;}
+
+/* ============== Checklist View Mode : Boxes */
+
+
+.wd-checklist-mode-1 div#WooDeliveryOrderList .row{width:250px;border:solid 1px #179005;border-radius:4px;text-align:center;padding:0px;margin:5px;float:left;}
+.wd-checklist-mode-1 #WooDeliveryOrderList .col2{height:90px;background:#dbffc0;}
+.wd-checklist-mode-1 #WooDeliveryOrderList .col2 a{color:#179005;font-size:16px;}
+.wd-checklist-mode-1 div#WooDeliveryOrderList .row input{display:none;}
+.wd-checklist-mode-1 #WooDeliveryOrderList div{border:0px none;}
+
+
+
+/* ============== Calendar and Scheduling Styling */
+
+.wd-scheduler-container .wd-scheduler-title{background:darkgreen;}
+.wd-scheduler-container .wd-scheduler-title h2{color:white;}
+.wd-scheduler-container {}
+
+.wd-scheduler-container #calendar{}
+.wd-scheduler-container #calendar table{}
+
+#wd-scheduler-control-panel{width:100%;margin:0;background:darkgreen;color:white;padding:4px 8px;clear:both;}
+
+#wd-scheduler-order-info-panel{background:lightgreen;color:darkgreen;padding:4px 8px;border:solid 1px darkgreen;}
+#wd-scheduler-order-info-header{background:darkgreen;color:white;}
+#wd-scheduler-order-info-header h3{color:white;padding-top:0;margin:2px;}
+
+#wd-scheduler-order-info-number{font-size:20px;}
+#wd-scheduler-order-info-date{font-size:20px;}
+#wd-scheduler-order-info-time{font-size:20px;}
+#wd-scheduler-order-info-address{padding:20px 4px;font-size:18px;font-weight:bold;}
+#wd-scheduler-order-info-qty{font-size:20px;}
+#wd-scheduler-order-info-driver{font-size:20px;}
+
+#wd-scheduler-order-actionsmenu{padding-top:10px;border-top:solid 2px darkgreen;margin-top:10px;clear:both;}
+
+.wd-scheduler-col2{border:solid 1px darkgreen;}
+.wd-scheduler-col3{border:solid 1px darkgreen;}
+.wd-scheduler-col4{border:solid 1px darkgreen;}
+.wd-scheduler-col5{border:solid 1px darkgreen;}
+
+
+/* ============== Responsive WooDelivery Styling */
+
+@media (max-width: 820px) {
+    div#WooDeliveryOrderList .col1, .responsive div.full-container, .responsive #primary.content-area, div#WooDeliveryOrderList .col2, .WDclaimcol1, .WDclaimcol2, .WDclaimcol3, .WDclaimcol4, .WooDeliveryOrderWrapper .col1, .WooDeliveryOrderWrapper .col2, .WooDeliveryOrderWrapper, div.WooDeliveryOrderWrapper.woocommerce div#WooDeliveryOrderHeader .col1, div.WooDeliveryOrderWrapper.woocommerce div#WooDeliveryOrderHeader .col2 {
+        float: left;
+        width: 98%;
+        height: auto;
+        padding: 4px 1%;
+        max-width: 98%;
+    }
+
+    #WooDeliveryOrderList .col4, #WooDeliveryOrderList .col5, #WooDeliveryOrderList .col6, #WooDeliveryOrderList .col7 {
+        width: 24%;
+        margin: 0;
+        height: 90px;
+    }
+    /* border:solid 1px #e6e6e6 */
+}
